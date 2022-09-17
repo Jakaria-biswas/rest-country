@@ -1,0 +1,21 @@
+.wrapper h3{
+  text-align: center;
+}
+.search-country{
+  text-align: center;
+}
+.search-country input{
+  width: 30%;
+  height: 30px;
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.country-wrapper{
+  padding: 50px;
+  display: grid;
+  /* grid-template-columns: 300px 300px 300px 300px; */
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+}
